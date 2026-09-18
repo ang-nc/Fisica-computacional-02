@@ -1,4 +1,3 @@
-
 program altura_proyectil
 
     implicit none
