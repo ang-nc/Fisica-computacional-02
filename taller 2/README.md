@@ -46,11 +46,11 @@ Esta parte estudia la aproximación de la función seno mediante su serie de Tay
 
 | --------------------------------------- | --------------------------------------------------------------------------------------------- |
 
-| `suma\_seno(x, tol, max\_iter)`           | Aproxima el seno mediante una serie de Taylor calculada recursivamente.                       |
+| `suma\\\\\\\_seno(x, tol, max\\\\\\\_iter)`           | Aproxima el seno mediante una serie de Taylor calculada recursivamente.                       |
 
-| `suma\_seno\_reducida(x, tol, max\_iter)`  | Reduce el argumento utilizando la periodicidad del seno antes de evaluar la serie.            |
+| `suma\\\\\\\_seno\\\\\\\_reducida(x, tol, max\\\\\\\_iter)`  | Reduce el argumento utilizando la periodicidad del seno antes de evaluar la serie.            |
 
-| `suma\_seno\_factorial(x, tol, max\_iter)` | Calcula directamente los términos mediante factoriales para comparar precisión y rendimiento. |
+| `suma\\\\\\\_seno\\\\\\\_factorial(x, tol, max\\\\\\\_iter)` | Calcula directamente los términos mediante factoriales para comparar precisión y rendimiento. |
 
 
 
@@ -68,7 +68,7 @@ Esta parte estudia la aproximación de la función seno mediante su serie de Tay
 
 \* Comparación de las implementaciones recursiva y factorial en precisión y tiempo de ejecución.
 
-\* Verificación de la función `suma\_seno\_reducida` mediante casos de prueba conocidos.
+\* Verificación de la función `suma\\\\\\\_seno\\\\\\\_reducida` mediante casos de prueba conocidos.
 
 
 
@@ -76,7 +76,7 @@ Esta parte estudia la aproximación de la función seno mediante su serie de Tay
 
 
 
-Se evaluaron tres casos de prueba para la función `suma\_seno\_reducida`.
+Se evaluaron tres casos de prueba para la función `suma\\\\\\\_seno\\\\\\\_reducida`.
 
 
 
@@ -104,7 +104,7 @@ Se evaluaron tres casos de prueba para la función `suma\_seno\_reducida`.
 
 
 
-\*\*Notebook:\*\* `B\_decaimiento\_radiactivo\_con\_python.ipynb`
+\*\*Notebook:\*\* `B\\\\\\\_decaimiento\\\\\\\_radiactivo\\\\\\\_con\\\\\\\_python.ipynb`
 
 
 
@@ -148,7 +148,7 @@ $$
 
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 
-| `N\_decaimiento(t, N0=10000, t\_half=5.0)` | Calcula la cantidad de núcleos restantes en función del tiempo, la cantidad inicial y la vida media. |
+| `N\\\\\\\_decaimiento(t, N0=10000, t\\\\\\\_half=5.0)` | Calcula la cantidad de núcleos restantes en función del tiempo, la cantidad inicial y la vida media. |
 
 
 
@@ -264,7 +264,7 @@ El taller está organizado en dos notebooks independientes:
 
 | `A precisión en python.ipynb`               | Serie de Taylor, convergencia, precisión numérica y comparación de implementaciones. |
 
-| `B\_decaimiento\_radiactivo\_con\_python.ipynb` | Modelo de decaimiento radiactivo, cálculo de tiempos y visualización gráfica.        |
+| `B\\\\\\\_decaimiento\\\\\\\_radiactivo\\\\\\\_con\\\\\\\_python.ipynb` | Modelo de decaimiento radiactivo, cálculo de tiempos y visualización gráfica.        |
 
 
 
@@ -281,6 +281,4 @@ El taller permitió aplicar Python al análisis de la precisión numérica y al 
 
 
 Las seis pruebas reportadas fueron aprobadas: tres correspondientes a la Parte A y tres a la Parte B.
-
-
 
