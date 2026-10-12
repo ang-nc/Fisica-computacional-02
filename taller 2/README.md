@@ -21,9 +21,9 @@ Esta parte estudia la aproximación de la función seno mediante su serie de Tay
 
 |Función|Descripción|
 |-|-|
-|`suma\\\\\\\_seno(x, tol, max\\\\\\\_iter)`|Aproxima el seno mediante una serie de Taylor calculada recursivamente.|
-|`suma\\\\\\\_seno\\\\\\\_reducida(x, tol, max\\\\\\\_iter)`|Reduce el argumento utilizando la periodicidad del seno antes de evaluar la serie.|
-|`suma\\\\\\\_seno\\\\\\\_factorial(x, tol, max\\\\\\\_iter)`|Calcula directamente los términos mediante factoriales para comparar precisión y rendimiento.|
+|`suma\\\\\\\\\\\\\\\_seno(x, tol, max\\\\\\\\\\\\\\\_iter)`|Aproxima el seno mediante una serie de Taylor calculada recursivamente.|
+|`suma\\\\\\\\\\\\\\\_seno\\\\\\\\\\\\\\\_reducida(x, tol, max\\\\\\\\\\\\\\\_iter)`|Reduce el argumento utilizando la periodicidad del seno antes de evaluar la serie.|
+|`suma\\\\\\\\\\\\\\\_seno\\\\\\\\\\\\\\\_factorial(x, tol, max\\\\\\\\\\\\\\\_iter)`|Calcula directamente los términos mediante factoriales para comparar precisión y rendimiento.|
 
 ### Análisis realizados
 
@@ -32,11 +32,11 @@ Esta parte estudia la aproximación de la función seno mediante su serie de Tay
 * Evaluación del error relativo y de la tolerancia numérica de `1e-8`.
 * Análisis de la pérdida de precisión al evaluar la serie para `x = 100` sin reducción de periodicidad.
 * Comparación de las implementaciones recursiva y factorial en precisión y tiempo de ejecución.
-* Verificación de la función `suma\\\\\\\_seno\\\\\\\_reducida` mediante casos de prueba conocidos.
+* Verificación de la función `suma\\\\\\\\\\\\\\\_seno\\\\\\\\\\\\\\\_reducida` mediante casos de prueba conocidos.
 
 ### Verificación PASS/FAIL
 
-Se evaluaron tres casos de prueba para la función `suma\\\\\\\_seno\\\\\\\_reducida`.
+Se evaluaron tres casos de prueba para la función `suma\\\\\\\\\\\\\\\_seno\\\\\\\\\\\\\\\_reducida`.
 
 |Valor de `x`|Estado|
 |-:|-|
@@ -50,7 +50,7 @@ Se evaluaron tres casos de prueba para la función `suma\\\\\\\_seno\\\\\\\_redu
 
 ## Parte B. Decaimiento radiactivo con Python
 
-**Notebook:** `B\\\\\\\_decaimiento\\\\\\\_radiactivo\\\\\\\_con\\\\\\\_python.ipynb`
+**Notebook:** `B\\\\\\\\\\\\\\\_decaimiento\\\\\\\\\\\\\\\_radiactivo\\\\\\\\\\\\\\\_con\\\\\\\\\\\\\\\_python.ipynb`
 
 Se modela el decaimiento radiactivo de una muestra inicial de 10 000 núcleos, con una vida media de 5 años.
 
@@ -70,7 +70,7 @@ $$
 
 |Función|Descripción|
 |-|-|
-|`N\\\\\\\_decaimiento(t, N0=10000, t\\\\\\\_half=5.0)`|Calcula la cantidad de núcleos restantes en función del tiempo, la cantidad inicial y la vida media.|
+|`N\\\\\\\\\\\\\\\_decaimiento(t, N0=10000, t\\\\\\\\\\\\\\\_half=5.0)`|Calcula la cantidad de núcleos restantes en función del tiempo, la cantidad inicial y la vida media.|
 
 ### Análisis realizados
 
@@ -128,7 +128,7 @@ El taller está organizado en dos notebooks independientes:
 |Archivo|Contenido|
 |-|-|
 |`A precisión en python.ipynb`|Serie de Taylor, convergencia, precisión numérica y comparación de implementaciones.|
-|`B\\\\\\\_decaimiento\\\\\\\_radiactivo\\\\\\\_con\\\\\\\_python.ipynb`|Modelo de decaimiento radiactivo, cálculo de tiempos y visualización gráfica.|
+|`B\\\\\\\\\\\\\\\_decaimiento\\\\\\\\\\\\\\\_radiactivo\\\\\\\\\\\\\\\_con\\\\\\\\\\\\\\\_python.ipynb`|Modelo de decaimiento radiactivo, cálculo de tiempos y visualización gráfica.|
 
 Cada notebook contiene el desarrollo de su respectiva parte y una sección final de verificación automática `PASS/FAIL`.
 
@@ -137,6 +137,4 @@ Cada notebook contiene el desarrollo de su respectiva parte y una sección final
 El taller permitió aplicar Python al análisis de la precisión numérica y al modelamiento de un fenómeno físico. En la Parte A se estudió la convergencia de la serie de Taylor del seno y la importancia de reducir el argumento para mejorar la precisión numérica. En la Parte B se implementó el modelo exponencial del decaimiento radiactivo y se representó gráficamente su evolución mediante operaciones vectorizadas.
 
 Las seis pruebas reportadas fueron aprobadas: tres correspondientes a la Parte A y tres a la Parte B.
-
-
 
